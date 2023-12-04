@@ -1,0 +1,87 @@
+.employee-list-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .employee-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-employee-button {
+    background-color: #008CBA;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-employee-button:hover {
+    background-color: #016f94;
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-table th, .employee-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .employee-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+
+  .employee-actions {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .employee-actions button {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .employee-actions button:hover {
+    background-color: #333;
+  }
+
+  .del-employee-button {
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .del-employee-button:hover {
+    background-color: rgb(201, 6, 6);
+  }
+
+  .view-employee-button {
+    background-color: #008CBA;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .view-employee-button:hover {
+    background-color: #016f94;
+  }
+  

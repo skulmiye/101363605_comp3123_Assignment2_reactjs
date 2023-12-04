@@ -1,0 +1,71 @@
+.body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .add-employee-container {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 35%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-employee-form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .add-employee-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+  }
+  
+  .add-employee-form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  
+  .add-employee-button{
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+  
+  .add-employee-button:hover {
+    background-color: #016f94;
+  }
+
+  .cancel-button {
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .cancel-button:hover {
+    background-color: rgb(201, 6, 6);
+  }
+  
